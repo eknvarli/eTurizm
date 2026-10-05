@@ -1,0 +1,30 @@
+# Bağımlılıklar
+node_modules
+.pnp
+.pnp.js
+
+# Build çıktıları
+dist
+dist-ssr
+*.local
+
+# Ortam değişkenleri (gizli)
+.env
+.env.local
+.env.*.local
+
+# Editor / IDE dosyaları
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
